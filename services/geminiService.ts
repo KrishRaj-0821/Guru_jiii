@@ -64,7 +64,7 @@ export const generateEducationalContent = async (
     let imageUrl: string | undefined;
     try {
       const imageResponse = await ai.models.generateContent({
-        model: 'gemini-2.5-flash-image',
+        model: 'gemini-1.5-flash',
         contents: {
           parts: [
             {
