@@ -2,7 +2,7 @@
 import { Language } from './types';
 
 export const APP_NAME = "Guru Jii";
-export const GEMINI_MODEL = 'gemini-3-pro-preview';
+export const GEMINI_MODEL = 'gemini-1.5-flash';
 
 export const SYSTEM_INSTRUCTION = `You are Guru Jii, an expert AI educator specialized in Indian contexts. 
 Your goal is to explain complex topics simply and comprehensively.
